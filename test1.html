@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>MyTask</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <style>
+        :root {
+            --text: #ffffff;
+            /* change this variable to update all text color at once */
+            --heading: #0077ff;
+            --link: #ff0000;
+            --background: #282828;
+            /* rgb(40,40,40) */
+        }
+
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+        }
+
+        body {
+            background-color: var(--background);
+            color: var(--text);
+            /* applies to all text by default */
+            font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+            padding: 1rem;
+        }
+
+        h1,
+        h2,
+        h3 {
+            color: var(--heading);
+            margin: 0 0 .5rem;
+        }
+
+        a {
+            color: var(--link);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>ArtanIseni</h1>
+    <h2>MyFirstCoding</h2>
+    <p>I'm starting to build my own HTML and software</p>
+    <a href="https://www.instagram.com"> dont go anywhere</a>
+    <img src="https://cdn.pixabay.com/photo/2024/05/08/17/45/animal-8748794_1280.jpg" alt="whatsThat" width="500"
+        height="300">
+    <p>ToDo something like this i tought its verry difficult</p>
+
+
+    <button onclick="document.getElementById('popup').style.display='none'">ClickMe</button>
+    <div id="popup" style="display:none;">
+        <h2>Hama Pecin</h2>
+        <p>you can close me by clicking the button</p>
+        <script>
+            document.getElementById("popup").style.display = "Block";
+        </script>
+
+        <!DOCTYPE html>
+        <html>
+
+        <head>
+            <style>
+                #popup {
+                    display: none;
+                    position: fixed;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    background: white;
+                    padding: 20px;
+                    border-radius: 10px;
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+                }
+
+                #overlay {
+                    display: none;
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background: rgba(0, 0, 0, 0.5);
+                }
+            </style>
+        </head>
+
+        <body>
+
+            <button onclick="showPopup()">close</button>
+
+            <div id="overlay" onclick="closePopup()"></div>
+            <div id="popup">
+                <p>Hallo! Ich bin ein Pop-up auf der Seite 😄</p>
+                <button onclick="closePopup()">Schließen</button>
+            </div>
+
+            <script>
+                function showPopup() {
+                    document.getElementById("overlay").style.display = "block";
+                    document.getElementById("popup").style.display = "block";
+                }
+                function closePopup() {
+                    document.getElementById("overlay").style.display = "none";
+                    document.getElementById("popup").style.display = "none";
+                }
+            </script>
+
+        </body>
+
+        </html>
+
+</body>
+
+</html>
