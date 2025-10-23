@@ -3,14 +3,28 @@
 
 <head>
     <meta charset="utf-8">
-    <title>MyTask</title>
+    <title>12MonthsProgress</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <style>
+        .ecke {
+            position: fixed;
+            top: 10px;
+            right: 10px;
+            right: 10px;
+            width: 100px;
+            opacity: 0.9;
+            z-index: 1000;
+        }
+
+
+
+
+
         :root {
             --text: #ffffff;
             /* change this variable to update all text color at once */
             --heading: #0077ff;
-            --link: #ff0000;
+            --link: #00ffd5;
             --background: #282828;
             /* rgb(40,40,40) */
         }
@@ -43,18 +57,25 @@
 </head>
 
 <body>
-    <h1>ArtanIseni</h1>
-    <h2>MyFirstCoding</h2>
+    <h1>HtmlWhatsThat</h1>
+    <p>Html you build the fundation of a Page
+        like text,Img and Links</p>
+    <h2>CssWhatsThat?</h2>
+    <p>Css you style the Page with colors,fonts and layout</p>
+    <h2>JavascriptJV</h2>
+    <p>Javascript you make the Page interactive with Buttons,Popups and more</p>
+    <h2>My Progress</h2>
     <p>I'm starting to build my own HTML and software</p>
-    <a href="https://www.instagram.com"> dont go anywhere</a>
-    <img src="https://cdn.pixabay.com/photo/2024/05/08/17/45/animal-8748794_1280.jpg" alt="whatsThat" width="500"
-        height="300">
-    <p>ToDo something like this i tought its verry difficult</p>
+    <a href="https://www.instagram.com"> ClickMe</a>
+    <img src="https://cdn.pixabay.com/photo/2024/05/08/17/45/animal-8748794_1280.jpg" alt="whatsThat" class="ecke"
+        width="250
+        height=" 150>
+    <p>its not difficult at all</p>
 
 
     <button onclick="document.getElementById('popup').style.display='none'">ClickMe</button>
     <div id="popup" style="display:none;">
-        <h2>Hama Pecin</h2>
+        <h2>test</h2>
         <p>you can close me by clicking the button</p>
         <script>
             document.getElementById("popup").style.display = "Block";
