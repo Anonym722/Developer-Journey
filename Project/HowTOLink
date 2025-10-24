@@ -1,0 +1,25 @@
+Today i connectet every Page (Html,Css,Js) Together 
+in HTml just put this
+
+<link rel="stylesheet" href="Css.css">
+    <script src="Script.js" defer></script>
+
+but you need to have 3 diferent files in a same Folder, for
+example.↓
+
+→ (Folder)  
+      ↓
+(File.Html),(File.Css),(File.JavaScript)
+
+Just open VsCode or any coding Program and make 3 different Files.
+Go to → Data → NewFile → Save as: then save it to an folder in your pc. you need to do that 3 Times. Make sure you Saving as .Html , .Css, .Js)
+
+I played arround with text, Desings and scripts today you can watch the Updates on my Folders. Images and Project.
+
+but this week im gona focus my self only in Html to finish my Knowledge in this, after that im switching to Css and Going to Combinate the Html with Css. at the end im going to JavaScripts and do my finish work there. and make only Projects combinated till im sure that i can do that 100% without a Problem.
+
+Exact Strategy: Html →Css → JavaScript → C++ → Ethical HAcking
+
+
+!!Make sure that you are saving it in your pc, not in OneDrive.
+otherwise you are not able, to open a live server, to see your Coding in Live Time. !!
