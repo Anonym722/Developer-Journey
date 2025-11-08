@@ -1,0 +1,125 @@
+body {
+    background: linear-gradient(135deg, #4b4b4b, #505050, #5c5c5c, #222222);
+  height: 100vh;
+  margin: 0;
+    font-family: Arial, sans-serif;
+}
+h1,h2,h3,h4,h5,h6 {
+    color: white;
+    font-family: 'Arial Black', sans-serif;
+    text-shadow: 10px 5px 4px #000000;
+}
+p {
+  color: #ffffff; /* Textfarbe (dunkelgrau) */
+  background-color: #ffffff00; /* Hintergrundfarbe */
+}
+
+.txt {
+    color: #0d0d0d;
+    font-size: 50px;
+    
+    position: relative;
+    margin: 0px;
+    top:20%;
+    left: 20%;
+    width: 60%;
+    text-shadow: #000000; 
+}
+h1,
+h2 {
+    background-color: #525151;
+    border-radius: 800px;
+    padding: 12px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+h1:hover,
+h2:hover {
+    background-color: #000000;
+}
+
+p {
+    text-align: center;
+    margin: 20px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.image-container {
+    position: relative;
+    text-align: right;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+.container {
+    position: relative;
+    width: 60%;
+    background: rgba(211, 211, 211, 0);
+        }
+
+    .frei {
+        position: relative;
+        top: 10%;
+        left: 50%;
+        margin: 0% auto;
+    }
+
+    .video-container {
+        max-width: 90%; /* passt sich an Bildschirm an */
+  height: auto;
+  border-radius: 10px;
+    }
+    
+    
+    
+    
+    .wo {
+        position: relative;
+        top: 10%;
+        left:50%;
+    
+    }
+
+    .audio-container {
+        text-align: center;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  color: white;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+  width: 100%;
+  max-width: 300px;
+    }
+
+    .Audios {
+        position: relative;
+        top: -190%;
+        left: 200%;
+        width: 100%;
+  max-width: 300px;
+    }
+img, video {
+  max-width: 90%; /* passt sich an Bildschirm an */
+  height: auto;
+  border-radius: 10px;
+}

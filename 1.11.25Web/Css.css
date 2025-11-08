@@ -1,0 +1,253 @@
+:root {
+    background-color: #cf8f8f;
+    color: #333333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    font-family: "Poppins", Arial, sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Zentriert alles horizontal */
+}
+
+.main-header {
+    background-color: #b56576;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: px 50px;
+    position: relative;
+    bottom: 20px;
+    width: 100%;
+    height: 150px;
+}
+
+nav button {
+    background-color: #1e1e1e;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 80px;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+nav button a {
+    color: white;
+    text-decoration: none;
+}
+
+nav button:hover {
+    background-color: #555555;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #e8e4e42f;
+    border-radius: 5px;
+}
+
+footer {
+    background-color: #b56576;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+}
+
+.ContactForm {
+    background-color: #cb25257a;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 400px;
+    margin: 0 auto 20px auto;
+}
+
+.ContactForm label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.ContactForm input[type="text"],
+.ContactForm textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* --- Popup Hintergrund (grau, durchsichtig) --- */
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+/* --- Popup Box --- */
+.popup-content {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 400px;
+    /* auf PC: mittig, auf Handy: kleiner */
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+/* --- Schließen-Knopf --- */
+.closeBtn {
+    float: right;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #555;
+}
+
+.closeBtn:hover {
+    color: #ff8c00;
+}
+
+/* --- Öffnen-Button --- */
+.openPopupBtn {
+    background: linear-gradient(90deg, #ffcc70, #ff8c00);
+    color: rgb(217, 208, 208);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.openPopupBtn:hover {
+    background: #ffb347;
+}
+
+/* --- Animation --- */
+@keyframes popupFade {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.popup-content {
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 400px;
+    /* auf PC: mittig, auf Handy: kleiner */
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+form {
+    width: 90%;
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 25px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+input[type="submit"],
+input[type="button"] {
+    background: linear-gradient(90deg, #ffcc70, #ff8c00);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover {
+    background: #ffb347;
+}
+
+h1,
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+@media (max-width: 600px) {
+
+    form,
+    .popup-content {
+        width: 95%;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    input,
+    textarea {
+        font-size: 16px;
+    }
+}
+
+.img1 {
+    position: relative;
+    left: 150px;
+    bottom: 190px;
+}
+
+.img2 {
+    position: relative;
+    right: 170px;
+    bottom: -85px;
+}
